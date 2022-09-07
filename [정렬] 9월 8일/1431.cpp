@@ -20,7 +20,7 @@ bool cmp(string a, string b) {
 		}
 	}
 
-	for (int i = 0; i < a.size(); i++) {
+	for (int i = 0; i < b.size(); i++) {
 		if (b[i] - '0' <= 9 && b[i] - '0' >= 0) { //시리얼 번호가 숫자
 			sum2 += b[i] - '0';
 		}
